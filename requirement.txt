@@ -1,6 +1,7 @@
 streamlit
 pandas
 numpy
+docx
 python-docx
 pdfplumber
 pymupdf
@@ -14,4 +15,3 @@ google-genai
 pytz
 python-dotenv
 openpyxl
-docx
