@@ -15,7 +15,7 @@ import json
 from datetime import datetime
 
 # ------------------ HARD-CODED GEMINI KEY (replace locally) ------------------
-GEMINI_API_KEY = "AIzaSyAVf_3yIxaO9ecFyWp7SIdbmgf4YnXGer8"
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 # ------------------ genai client ------------------
 try:
     from google import genai
@@ -1438,3 +1438,4 @@ with tab1:
             key_suffix="autoshow"
         )
         st.markdown('</div>', unsafe_allow_html=True)
+
